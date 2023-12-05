@@ -7,10 +7,10 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/stretchr/testify v1.8.0
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/api v0.24.3
+	k8s.io/api v0.26.0
 	k8s.io/apiextensions-apiserver v0.23.5
-	k8s.io/apimachinery v0.24.4
-	k8s.io/client-go v0.24.3
+	k8s.io/apimachinery v0.26.0
+	k8s.io/client-go v0.26.0
 )
 
 require (
