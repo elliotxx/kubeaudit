@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Shopify/kubeaudit/cmd/commands"
+import "github.com/elliotxx/kubeaudit/cmd/commands"
 
 func main() {
 	commands.Execute()

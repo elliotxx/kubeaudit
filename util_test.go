@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Shopify/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

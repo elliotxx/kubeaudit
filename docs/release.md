@@ -2,7 +2,7 @@
 
 1. Make sure you're on main and have the latest changes.
 
-2. Find the [latest release](https://github.com/Shopify/kubeaudit/releases).
+2. Find the [latest release](https://github.com/elliotxx/kubeaudit/releases).
 
 > We use [semver](https://semver.org/) versioning. In semver, version numbers have the format `v<MAJOR>.<MINOR>.<PATCH>`. However, because we still consider Kubeaudit to be in "alpha", the major number is always 0. This means that we do not maintain versions from before a breaking change, and updating to a new minor version may introduce a breaking change.
 
@@ -25,7 +25,7 @@ git push origin v0.11.6
 ```
 
 
-5. Once you push the tag, the release Github action will be triggered and generate a draft release in Github, allowing you to double check it and make changes to the Changelog. Find the [draft release](https://github.com/Shopify/kubeaudit/releases) and make sure there are no commits to main since the release.
+5. Once you push the tag, the release Github action will be triggered and generate a draft release in Github, allowing you to double check it and make changes to the Changelog. Find the [draft release](https://github.com/elliotxx/kubeaudit/releases) and make sure there are no commits to main since the release.
 
 > If there are commits to main since the release, this may mean you didn't make the tag on main or your main is out of date.
 

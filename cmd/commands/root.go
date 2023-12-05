@@ -9,12 +9,12 @@ import (
 	"github.com/spf13/cobra"
 	apiv1 "k8s.io/api/core/v1"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/auditors/all"
-	"github.com/Shopify/kubeaudit/config"
-	"github.com/Shopify/kubeaudit/internal/color"
-	"github.com/Shopify/kubeaudit/internal/k8sinternal"
-	"github.com/Shopify/kubeaudit/internal/sarif"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/auditors/all"
+	"github.com/elliotxx/kubeaudit/config"
+	"github.com/elliotxx/kubeaudit/internal/color"
+	"github.com/elliotxx/kubeaudit/internal/k8sinternal"
+	"github.com/elliotxx/kubeaudit/internal/sarif"
 )
 
 var rootConfig rootFlags

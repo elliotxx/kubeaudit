@@ -1,20 +1,20 @@
 package sarif
 
 import (
-	"github.com/Shopify/kubeaudit/auditors/apparmor"
-	"github.com/Shopify/kubeaudit/auditors/asat"
-	"github.com/Shopify/kubeaudit/auditors/capabilities"
-	"github.com/Shopify/kubeaudit/auditors/deprecatedapis"
-	"github.com/Shopify/kubeaudit/auditors/hostns"
-	"github.com/Shopify/kubeaudit/auditors/image"
-	"github.com/Shopify/kubeaudit/auditors/limits"
-	"github.com/Shopify/kubeaudit/auditors/mounts"
-	"github.com/Shopify/kubeaudit/auditors/netpols"
-	"github.com/Shopify/kubeaudit/auditors/nonroot"
-	"github.com/Shopify/kubeaudit/auditors/privesc"
-	"github.com/Shopify/kubeaudit/auditors/privileged"
-	"github.com/Shopify/kubeaudit/auditors/rootfs"
-	"github.com/Shopify/kubeaudit/auditors/seccomp"
+	"github.com/elliotxx/kubeaudit/auditors/apparmor"
+	"github.com/elliotxx/kubeaudit/auditors/asat"
+	"github.com/elliotxx/kubeaudit/auditors/capabilities"
+	"github.com/elliotxx/kubeaudit/auditors/deprecatedapis"
+	"github.com/elliotxx/kubeaudit/auditors/hostns"
+	"github.com/elliotxx/kubeaudit/auditors/image"
+	"github.com/elliotxx/kubeaudit/auditors/limits"
+	"github.com/elliotxx/kubeaudit/auditors/mounts"
+	"github.com/elliotxx/kubeaudit/auditors/netpols"
+	"github.com/elliotxx/kubeaudit/auditors/nonroot"
+	"github.com/elliotxx/kubeaudit/auditors/privesc"
+	"github.com/elliotxx/kubeaudit/auditors/privileged"
+	"github.com/elliotxx/kubeaudit/auditors/rootfs"
+	"github.com/elliotxx/kubeaudit/auditors/seccomp"
 )
 
 var allAuditors = map[string]string{

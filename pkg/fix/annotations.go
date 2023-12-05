@@ -3,7 +3,7 @@ package fix
 import (
 	"fmt"
 
-	"github.com/Shopify/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
 )
 
 // FixBySettingPodAnnotation implements PendingFix

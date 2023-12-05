@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Shopify/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
 )
 
 // uniqueCapabilities creates an array of all unique capabilities in the custom drop list and container add list

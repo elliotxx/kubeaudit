@@ -3,8 +3,8 @@ package fix
 import (
 	"testing"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 )

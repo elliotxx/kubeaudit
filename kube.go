@@ -1,6 +1,6 @@
 package kubeaudit
 
-import "github.com/Shopify/kubeaudit/pkg/k8s"
+import "github.com/elliotxx/kubeaudit/pkg/k8s"
 
 // ErrorUnsupportedResource occurs when Kubeaudit doesn't know how to audit the resource
 const ErrorUnsupportedResource = "Unsupported resource"

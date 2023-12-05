@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/Shopify/kubeaudit/auditors/all"
+	"github.com/elliotxx/kubeaudit/auditors/all"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

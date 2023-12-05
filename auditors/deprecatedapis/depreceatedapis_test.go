@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/internal/test"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/internal/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

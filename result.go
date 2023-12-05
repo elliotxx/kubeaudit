@@ -1,6 +1,6 @@
 package kubeaudit
 
-import "github.com/Shopify/kubeaudit/pkg/k8s"
+import "github.com/elliotxx/kubeaudit/pkg/k8s"
 
 // AuditResult severity levels. They also correspond to log levels
 const (

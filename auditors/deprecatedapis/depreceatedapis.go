@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/internal/k8sinternal"
-	"github.com/Shopify/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/internal/k8sinternal"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

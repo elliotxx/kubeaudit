@@ -3,8 +3,8 @@ package commands
 import (
 	"os"
 
-	"github.com/Shopify/kubeaudit/auditors/all"
-	"github.com/Shopify/kubeaudit/config"
+	"github.com/elliotxx/kubeaudit/auditors/all"
+	"github.com/elliotxx/kubeaudit/config"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

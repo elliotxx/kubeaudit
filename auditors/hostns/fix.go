@@ -1,6 +1,6 @@
 package hostns
 
-import "github.com/Shopify/kubeaudit/pkg/k8s"
+import "github.com/elliotxx/kubeaudit/pkg/k8s"
 
 type fixHostNetworkTrue struct {
 	podSpec *k8s.PodSpecV1

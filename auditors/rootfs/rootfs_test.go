@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/internal/test"
-	"github.com/Shopify/kubeaudit/pkg/override"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/internal/test"
+	"github.com/elliotxx/kubeaudit/pkg/override"
 )
 
 const fixtureDir = "fixtures"

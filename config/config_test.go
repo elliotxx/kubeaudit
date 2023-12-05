@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Shopify/kubeaudit/auditors/all"
-	"github.com/Shopify/kubeaudit/config"
+	"github.com/elliotxx/kubeaudit/auditors/all"
+	"github.com/elliotxx/kubeaudit/config"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

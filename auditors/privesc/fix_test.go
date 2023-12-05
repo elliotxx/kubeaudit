@@ -3,8 +3,8 @@ package privesc
 import (
 	"testing"
 
-	"github.com/Shopify/kubeaudit/internal/test"
-	"github.com/Shopify/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit/internal/test"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
 	"github.com/stretchr/testify/assert"
 )
 

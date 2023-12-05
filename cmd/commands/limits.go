@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Shopify/kubeaudit/auditors/limits"
+	"github.com/elliotxx/kubeaudit/auditors/limits"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

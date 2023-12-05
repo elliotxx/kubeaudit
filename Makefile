@@ -59,6 +59,6 @@ build-linux:
 	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 $(GOBUILD) -o $(BINARY_UNIX) -v
 
 docker-build:
-	docker run --rm -it -v "$(GOPATH)":/go -w /go/src/github.com/Shopify/kubeaudit golang:1.12 go build -o "$(BINARY_UNIX)" -v
+	docker run --rm -it -v "$(GOPATH)":/go -w /go/src/github.com/elliotxx/kubeaudit golang:1.12 go build -o "$(BINARY_UNIX)" -v
 
 .PHONY: all build install plugin test test-setup test-teardown show-coverage clean build-linux docker-build

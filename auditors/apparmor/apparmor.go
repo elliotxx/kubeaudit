@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/pkg/fix"
-	"github.com/Shopify/kubeaudit/pkg/k8s"
-	"github.com/Shopify/kubeaudit/pkg/override"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/pkg/fix"
+	"github.com/elliotxx/kubeaudit/pkg/k8s"
+	"github.com/elliotxx/kubeaudit/pkg/override"
 )
 
 const Name = "apparmor"

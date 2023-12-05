@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Shopify/kubeaudit/auditors/deprecatedapis"
+	"github.com/elliotxx/kubeaudit/auditors/deprecatedapis"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

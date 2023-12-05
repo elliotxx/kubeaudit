@@ -3,11 +3,11 @@ package sarif
 import (
 	"testing"
 
-	"github.com/Shopify/kubeaudit"
-	"github.com/Shopify/kubeaudit/auditors/apparmor"
-	"github.com/Shopify/kubeaudit/auditors/capabilities"
-	"github.com/Shopify/kubeaudit/auditors/image"
-	"github.com/Shopify/kubeaudit/auditors/limits"
+	"github.com/elliotxx/kubeaudit"
+	"github.com/elliotxx/kubeaudit/auditors/apparmor"
+	"github.com/elliotxx/kubeaudit/auditors/capabilities"
+	"github.com/elliotxx/kubeaudit/auditors/image"
+	"github.com/elliotxx/kubeaudit/auditors/limits"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -34,7 +34,7 @@ func TestCreateWithResults(t *testing.T) {
 			apparmor.AppArmorInvalidAnnotation,
 			"error",
 			"AppArmor annotation key refers to a container that doesn't exist",
-			"https://github.com/Shopify/kubeaudit/blob/main/docs/auditors/apparmor.md",
+			"https://github.com/elliotxx/kubeaudit/blob/main/docs/auditors/apparmor.md",
 			"apparmorPath",
 		},
 		{
@@ -49,7 +49,7 @@ func TestCreateWithResults(t *testing.T) {
 			capabilities.CapabilityAdded,
 			"error",
 			"It should be removed from the capability add list",
-			"https://github.com/Shopify/kubeaudit/blob/main/docs/auditors/capabilities.md",
+			"https://github.com/elliotxx/kubeaudit/blob/main/docs/auditors/capabilities.md",
 			"capsPath",
 		},
 		{
@@ -64,7 +64,7 @@ func TestCreateWithResults(t *testing.T) {
 			image.ImageCorrect,
 			"note",
 			"Image tag is correct",
-			"https://github.com/Shopify/kubeaudit/blob/main/docs/auditors/image.md",
+			"https://github.com/elliotxx/kubeaudit/blob/main/docs/auditors/image.md",
 			"imagePath",
 		},
 		{
@@ -79,7 +79,7 @@ func TestCreateWithResults(t *testing.T) {
 			limits.LimitsNotSet,
 			"warning",
 			"Resource limits not set",
-			"https://github.com/Shopify/kubeaudit/blob/main/docs/auditors/limits.md",
+			"https://github.com/elliotxx/kubeaudit/blob/main/docs/auditors/limits.md",
 			"limitsPath",
 		},
 	}

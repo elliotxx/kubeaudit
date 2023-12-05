@@ -1,11 +1,11 @@
-[![Build Status](https://github.com/Shopify/kubeaudit/actions/workflows/ci.yml/badge.svg)](https://github.com/Shopify/kubeaudit/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Shopify/kubeaudit)](https://goreportcard.com/report/github.com/Shopify/kubeaudit)
-[![GoDoc](https://godoc.org/github.com/Shopify/kubeaudit?status.png)](https://godoc.org/github.com/Shopify/kubeaudit)
+[![Build Status](https://github.com/elliotxx/kubeaudit/actions/workflows/ci.yml/badge.svg)](https://github.com/elliotxx/kubeaudit/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/elliotxx/kubeaudit)](https://goreportcard.com/report/github.com/elliotxx/kubeaudit)
+[![GoDoc](https://godoc.org/github.com/elliotxx/kubeaudit?status.png)](https://godoc.org/github.com/elliotxx/kubeaudit)
 
 > It is now a requirement for clusters to run Kubernetes >=1.19.
 
 > override labels with unregistered `kubernetes.io` annotations will be deprecated. It'll soon be a requirement to use `kubeaudit.io` instead.
-Refer to this [discussion](https://github.com/Shopify/kubeaudit/issues/457) for additional context.
+Refer to this [discussion](https://github.com/elliotxx/kubeaudit/issues/457) for additional context.
 
 # kubeaudit :cloud: :lock: :muscle:
 
@@ -20,7 +20,7 @@ different security concerns, such as:
 **tldr. `kubeaudit` makes sure you deploy secure containers!**
 
 ## Package
-To use kubeaudit as a Go package, see the [package docs](https://pkg.go.dev/github.com/Shopify/kubeaudit).
+To use kubeaudit as a Go package, see the [package docs](https://pkg.go.dev/github.com/elliotxx/kubeaudit).
 
 The rest of this README will focus on how to use kubeaudit as a command line tool.
 
@@ -45,7 +45,7 @@ brew install kubeaudit
 ### Download a binary
 
 Kubeaudit has official releases that are blessed and stable:
-[Official releases](https://github.com/Shopify/kubeaudit/releases)
+[Official releases](https://github.com/elliotxx/kubeaudit/releases)
 
 ### DIY build
 
@@ -54,7 +54,7 @@ feature not yet included in a release, make sure you're using Go 1.17+ and run
 the following:
 
 ```sh
-go get -v github.com/Shopify/kubeaudit
+go get -v github.com/elliotxx/kubeaudit
 ```
 
 Start using `kubeaudit` with the [Quick Start](#quick-start) or view all the [supported commands](#commands).
@@ -339,8 +339,8 @@ To learn more about labels, see https://kubernetes.io/docs/concepts/overview/wor
 If you'd like to fix a bug, contribute a feature or just correct a typo, please feel free to do so as long as you follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 1. Create your own fork!
-1. Get the source: `go get github.com/Shopify/kubeaudit`
-1. Go to the source: `cd $GOPATH/src/github.com/Shopify/kubeaudit`
+1. Get the source: `go get github.com/elliotxx/kubeaudit`
+1. Go to the source: `cd $GOPATH/src/github.com/elliotxx/kubeaudit`
 1. Add your forked repo as a fork: `git remote add fork https://github.com/you-are-awesome/kubeaudit`
 1. Create your feature branch: `git checkout -b awesome-new-feature`
 1. Install [Kind](https://kind.sigs.k8s.io/#installation-and-usage)

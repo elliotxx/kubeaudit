@@ -7,9 +7,9 @@ COMMIT=${COMMIT:-$(git rev-parse --short HEAD)}
 BUILDDATE=${BUILDDATE:-$(date -u -Ins 2> /dev/null || true)}
 BUILDDATE=${BUILDDATE:-$(date -u +%FT%T000000000%z)}
 
-new_ldflags="-X \"github.com/Shopify/kubeaudit/cmd.Version=${VERSION}\""
-new_ldflags+=" -X \"github.com/Shopify/kubeaudit/cmd.Commit=${COMMIT}\""
-new_ldflags+=" -X \"github.com/Shopify/kubeaudit/cmd.BuildDate=${BUILDDATE}\""
+new_ldflags="-X \"github.com/elliotxx/kubeaudit/cmd.Version=${VERSION}\""
+new_ldflags+=" -X \"github.com/elliotxx/kubeaudit/cmd.Commit=${COMMIT}\""
+new_ldflags+=" -X \"github.com/elliotxx/kubeaudit/cmd.BuildDate=${BUILDDATE}\""
 
 export LDFLAGS="$new_ldflags ${LDFLAGS:-}"
 echo "$LDFLAGS"
