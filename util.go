@@ -45,6 +45,20 @@ func getResourcesFromManifest(data []byte) ([]KubeResource, error) {
 	return resources, nil
 }
 
+func getResourcesFromSingleManifest(b []byte) (KubeResource, error) {
+	obj, err := k8sinternal.DecodeResource(b)
+	if err == nil && obj != nil {
+		return &kubeResource{
+			object: obj,
+			bytes:  b,
+		}, nil
+	} else if err := yaml.Unmarshal(b, &yaml.Node{}); err != nil {
+		return nil, fmt.Errorf("Invalid yaml: %w", err)
+	} else {
+		return &kubeResource{bytes: b}, nil
+	}
+}
+
 func auditResources(resources []KubeResource, auditable []Auditable) ([]Result, error) {
 	var results []Result
 
